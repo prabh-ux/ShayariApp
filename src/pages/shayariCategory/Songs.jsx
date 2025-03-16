@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import fetchShayari from "../../Data/FetchData";
 import ShayariDiv from "../../components/ShayariDiv";
-import ShayariCategories from "../../components/ShayariCategories";
+import { lazy, Suspense } from "react";
+const ShayariCategories = lazy(() => import("../../components/ShayariCategories"));
 import { useParams } from "react-router-dom"; // ✅ Import useParams
 
 const SongsPunjabiShayari = () => {
@@ -70,7 +71,9 @@ const { pageNo } = useParams();
       />
 
       {/* 📌 Categories */}   
-      <ShayariCategories />
+      <Suspense fallback={<div>Loading...</div>}>
+  <ShayariCategories />
+</Suspense>;
     </div>
   );
 };

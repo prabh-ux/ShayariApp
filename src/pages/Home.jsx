@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-
 import fetchShayari from "../Data/FetchData";
 import ShayariDiv from "../components/ShayariDiv";
-import ShayariCategories from "../components/ShayariCategories";
+import { lazy, Suspense } from "react";
+const ShayariCategories = lazy(() => import("../components/ShayariCategories"));
 
 const Home = () => {
   const [shayari, setShayari] = useState([]);
@@ -77,7 +77,9 @@ const Home = () => {
     <ShayariDiv heading={"🔥 Trending Punjabi Shayari"} shayari={shayari} itemsPerPage={itemsPerPage} paginatedShayari={paginatedShayari} prevPage={prevPage} currentPage={currentPage} nextPage={nextPage} endIndex={endIndex} ></ShayariDiv>
 
       {/* 📌 Categories */}
-     <ShayariCategories></ShayariCategories>
+      <Suspense fallback={<div>Loading...</div>}>
+  <ShayariCategories />
+</Suspense>;
     </div>
   );
 };

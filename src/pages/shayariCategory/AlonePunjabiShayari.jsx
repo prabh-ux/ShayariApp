@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom"; // ✅ Import useParams
 import fetchShayari from "../../Data/FetchData";
 import ShayariDiv from "../../components/ShayariDiv";
-import ShayariCategories from "../../components/ShayariCategories";
+import { lazy, Suspense } from "react";
+const ShayariCategories = lazy(() => import("../../components/ShayariCategories"));
 
 const AlonePunjabiShayari = () => {
   const { pageNo } = useParams(); // ✅ Get page number from URL
@@ -73,7 +74,9 @@ const AlonePunjabiShayari = () => {
       />
 
       {/* 📌 Categories */}
-      <ShayariCategories />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ShayariCategories />
+      </Suspense>;
     </div>
   );
 };

@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from "react";
 import fetchShayari from "../../Data/FetchData";
 import ShayariDiv from "../../components/ShayariDiv";
-import ShayariCategories from "../../components/ShayariCategories";
+import { lazy, Suspense } from "react";
+const ShayariCategories = lazy(() => import("../../components/ShayariCategories"));
 import { useParams } from "react-router-dom"; // ✅ Import useParams
 
 const BreakUpPunjabiShayari = () => {
   const [shayari, setShayari] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 12;
-  
- const { pageNo } = useParams();
-    // ✅ Update currentPage when pageNo changes
-      useEffect(() => {
-        setCurrentPage(parseInt(pageNo, 10) || 1);
-      }, [pageNo]);
+
+  const { pageNo } = useParams();
+  // ✅ Update currentPage when pageNo changes
+  useEffect(() => {
+    setCurrentPage(parseInt(pageNo, 10) || 1);
+  }, [pageNo]);
 
   useEffect(() => {
     const loadShayari = async () => {
@@ -23,23 +24,23 @@ const BreakUpPunjabiShayari = () => {
     loadShayari();
   }, []);
 
-    // ✅ Pagination (adjusted for 1-based indexing)
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const paginatedShayari = shayari.slice(startIndex, endIndex);
-  
-    // ✅ Corrected navigation functions
-    const nextPage = () => {
-      if (endIndex < shayari.length) {
-        window.location.href = `/breakup-punjabi-shayari/${currentPage + 1}`;
-      }
-    };
-  
-    const prevPage = () => {
-      if (currentPage > 1) {
-        window.location.href = `/breakup-punjabi-shayari/${currentPage - 1}`;
-      }
-    };
+  // ✅ Pagination (adjusted for 1-based indexing)
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedShayari = shayari.slice(startIndex, endIndex);
+
+  // ✅ Corrected navigation functions
+  const nextPage = () => {
+    if (endIndex < shayari.length) {
+      window.location.href = `/breakup-punjabi-shayari/${currentPage + 1}`;
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage > 1) {
+      window.location.href = `/breakup-punjabi-shayari/${currentPage - 1}`;
+    }
+  };
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
       {/* 🌟 SEO Meta Tags */}
@@ -71,8 +72,10 @@ const BreakUpPunjabiShayari = () => {
         heading={"🥀 ਬ੍ਰੇਕਅੱਪ ਪੰਜਾਬੀ ਸ਼ਾਇਰੀ – ਵਿਛੋੜੇ ਦੇ ਦਰਦ ਨੂੰ ਸ਼ਬਦ ਮਿਲੇ!"}
       />
 
-      {/* 📌 Categories Navigation */}
-      <ShayariCategories />
+      {/* 📌 Categories */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <ShayariCategories />
+      </Suspense>;
     </div>
   );
 };
