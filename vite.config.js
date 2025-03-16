@@ -6,6 +6,11 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     historyApiFallback: true, // Fixes 404 issue on page refresh
+  }, build: {
+    minify: "terser", // Better minification
+    rollupOptions: {
+      treeshake: true, // Remove unused code
+    },
   },
   
 });
