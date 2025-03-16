@@ -1,50 +1,48 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import NewPunjabiShayari from '../pages/shayariCategory/NewPunjabiShayari'
-import LovePunjabiShayari from '../pages/shayariCategory/LovePunjabiShayari';
-import SadPunjabiShayari from '../pages/shayariCategory/SadPunjabiShayari';
-import AlonePunjabiShayari from '../pages/shayariCategory/AlonePunjabiShayari';
-import BreakUp from '../pages/shayariCategory/BreakUp';
-import Attitude from '../pages/shayariCategory/Attitude';
-import Friends from '../pages/shayariCategory/Friends';
-import Funny from '../pages/shayariCategory/Funny';
-import Songs from '../pages/shayariCategory/Songs';
-import Dharmik from '../pages/shayariCategory/Dharmik';
-import Motivational from '../pages/shayariCategory/Motivational';
-export const categories = [
-  { path: "/new-punjabi-shayari/:pageNo", label: "New Punjabi Shayari", component: NewPunjabiShayari },
-  { path: "/love-punjabi-shayari/:pageNo", label: "Love Punjabi Shayari", component: LovePunjabiShayari },
-  { path: "/sad-punjabi-shayari/:pageNo", label: "Sad Punjabi Shayari", component: SadPunjabiShayari },
-  { path: "/alone-punjabi-shayari/:pageNo", label: "Alone Punjabi Shayari", component: AlonePunjabiShayari },
-  { path: "/breakup-punjabi-shayari/:pageNo", label: "Breakup Punjabi Shayari", component: BreakUp },
-  { path: "/attitude-punjabi-shayari/:pageNo", label: "Attitude Punjabi Shayari", component: Attitude },
-  { path: "/friendship-punjabi-shayari/:pageNo", label: "Friendship Punjabi Shayari", component: Friends },
-  { path: "/funny-punjabi-shayari/:pageNo", label: "Funny Punjabi Shayari", component: Funny },
-  { path: "/songs-punjabi-shayari/:pageNo", label: "Punjabi Shayari on Songs", component: Songs },
-  { path: "/dharmik-punjabi-shayari/:pageNo", label: "Dharmik (Religious) Punjabi Shayari", component: Dharmik },
-  { path: "/motivational-punjabi-shayari/:pageNo", label: "Motivational Punjabi Shayari", component: Motivational }
-];
+import { categories } from "../Data/FetchData";
+
 const ShayariCategories = () => {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    // Simulate loading delay (remove if data is static)
+    const timeout = setTimeout(() => setLoaded(true), 100);
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-<section className="bg-white py-6 px-[1rem] text-center h-[250px]">
+    <section className="bg-white py-6 px-[1rem] text-center min-h-[250px] flex flex-col items-center">
+      <h2 className="text-2xl font-semibold text-center min-h-[40px]">
+        💖 Explore More Punjabi Shayari Categories
+      </h2>
 
-        <h2 className="text-2xl font-semibold text-center ">💖 Explore More Punjabi Shayari Categories</h2>
-        <div className="flex flex-wrap justify-center gap-4 mt-6 min-h-[100px]">
+      <div className="flex flex-wrap justify-center gap-4 mt-6 min-h-[120px]">
+        {loaded ? (
+          categories.map((category) => (
+            <Link
+              key={category.path}
+              to={category.path.replace(":pageNo", "1")}
+              className="w-[180px] h-[50px] flex items-center justify-center px-6 py-3 bg-red-700 text-white rounded-lg shadow-md hover:bg-red-600 text-center transition"
+              aria-label={`Explore ${category.label}`}
+            >
+              {category.label}
+            </Link>
+          ))
+        ) : (
+          // Skeleton placeholders (prevents layout shift)
+          Array(8)
+            .fill("")
+            .map((_, index) => (
+              <div
+                key={index}
+                className="w-[180px] h-[50px] bg-gray-300 rounded-lg animate-pulse"
+              ></div>
+            ))
+        )}
+      </div>
+    </section>
+  );
+};
 
-          {categories.map((category) => (
-           <Link 
-           key={category.path} 
-           to={category.path.replace(":pageNo", "1")}
-           className="w-[180px] px-6 py-3 bg-red-700 text-white rounded-lg shadow-md hover:bg-red-600 text-center"
-         >
-           {category.label}
-         </Link>
-         
-          ))}
-
-        </div>
-      </section>
-  )
-}
-
-export default ShayariCategories
+export default ShayariCategories;
