@@ -1,6 +1,16 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-
+import NewPunjabiShayari from '../pages/shayariCategory/NewPunjabiShayari'
+import LovePunjabiShayari from '../pages/shayariCategory/LovePunjabiShayari';
+import SadPunjabiShayari from '../pages/shayariCategory/SadPunjabiShayari';
+import AlonePunjabiShayari from '../pages/shayariCategory/AlonePunjabiShayari';
+import BreakUp from '../pages/shayariCategory/BreakUp';
+import Attitude from '../pages/shayariCategory/Attitude';
+import Friends from '../pages/shayariCategory/Friends';
+import Funny from '../pages/shayariCategory/Funny';
+import Songs from '../pages/shayariCategory/Songs';
+import Dharmik from '../pages/shayariCategory/Dharmik';
+import Motivational from '../pages/shayariCategory/Motivational';
 export const categories = [
   { path: "/new-punjabi-shayari/:pageNo", label: "New Punjabi Shayari", component: NewPunjabiShayari },
   { path: "/love-punjabi-shayari/:pageNo", label: "Love Punjabi Shayari", component: LovePunjabiShayari },
