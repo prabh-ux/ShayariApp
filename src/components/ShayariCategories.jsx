@@ -12,7 +12,7 @@ const ShayariCategories = () => {
            <Link 
            key={category.path} 
            to={category.path.replace(":pageNo", "1")}
-           className="w-[180px] px-6 py-3 bg-red-500 text-white rounded-lg shadow-md hover:bg-red-600 text-center"
+           className="w-[180px] px-6 py-3 bg-red-700 text-white rounded-lg shadow-md hover:bg-red-600 text-center"
          >
            {category.label}
          </Link>

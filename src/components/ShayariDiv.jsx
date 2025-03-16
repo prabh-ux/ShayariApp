@@ -17,6 +17,7 @@ const ShayariDiv = ({paginatedShayari,prevPage,currentPage,shayari,itemsPerPage,
     {/* Pagination Arrows */}
     <div className="flex justify-center items-center mt-6 gap-6">
       <button
+      aria-label="next"
         onClick={prevPage}
         disabled={currentPage === 1}
         className={` cursor-pointer px-4 py-2 rounded-full shadow-md transform transition-all duration-200 active:scale-90 ${currentPage === 1||currentPage === 0 ? "bg-gray-300 cursor-not-allowed" : "bg-rose-900 hover:bg-rose-800 text-white"}`}
@@ -28,6 +29,7 @@ const ShayariDiv = ({paginatedShayari,prevPage,currentPage,shayari,itemsPerPage,
       <span className="text-lg font-medium">{currentPage } / {Math.ceil(shayari.length / itemsPerPage)}</span>
 
       <button
+      aria-label="next"
         onClick={nextPage}
         disabled={endIndex >= shayari.length}
         className={`cursor-pointer px-4 py-2 rounded-full shadow-md ${endIndex >= shayari.length ? "bg-gray-300 cursor-not-allowed" : " bg-rose-900 hover:bg-rose-800 text-white"} transform transition-all duration-200`}
