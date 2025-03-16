@@ -6,7 +6,7 @@ const ShayariCategories = () => {
 <section className="bg-white py-6 px-[1rem] text-center h-[250px]">
 
         <h2 className="text-2xl font-semibold text-center ">💖 Explore More Punjabi Shayari Categories</h2>
-        <div className="flex flex-wrap justify-center gap-4 mt-6 min-h-[100px]">
+        <div className="grid md:grid-cols-3  justify-center gap-4 mt-6 min-h-[100px]">
 
           {categories.map((category) => (
            <Link 
