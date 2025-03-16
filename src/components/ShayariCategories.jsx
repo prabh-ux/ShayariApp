@@ -23,7 +23,7 @@ const ShayariCategories = () => {
             <Link
               key={category.path}
               to={category.path.replace(":pageNo", "1")}
-              className="w-[180px] h-[50px] flex items-center justify-center px-6 py-3 bg-red-700 text-white rounded-lg shadow-md hover:bg-red-600 text-center transition"
+              className="w-fit h-fit flex items-center justify-center px-[0.5rem] text-nowrap py-[0.5rem] bg-red-700 text-white rounded-lg  hover:bg-red-600 text-center transition"
               aria-label={`Explore ${category.label}`}
             >
               {category.label}
