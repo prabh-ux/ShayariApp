@@ -3,7 +3,8 @@ import { categories } from "../Data/FetchData";
 import { Link } from "react-router-dom";
 const ShayariCategories = () => {
   return (
-    <section className="bg-white py-6 px-[1rem] text-center">
+    <section className="bg-white min-h-[300px] py-6 px-[1rem] text-center">
+
         <h2 className="text-2xl font-semibold text-center ">💖 Explore More Punjabi Shayari Categories</h2>
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           {categories.map((category) => (
