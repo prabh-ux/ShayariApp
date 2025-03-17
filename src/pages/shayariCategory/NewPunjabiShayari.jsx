@@ -9,11 +9,11 @@ const NewPunjabiShayari = () => {
   const [shayari, setShayari] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 12;
-const { pageNo } = useParams();
-// ✅ Update currentPage when pageNo changes
-    useEffect(() => {
-      setCurrentPage(parseInt(pageNo, 10) || 1);
-    }, [pageNo]);
+  const { pageNo } = useParams();
+  // ✅ Update currentPage when pageNo changes
+  useEffect(() => {
+    setCurrentPage(parseInt(pageNo, 10) || 1);
+  }, [pageNo]);
   useEffect(() => {
     const loadShayari = async () => {
       const data = await fetchShayari("new"); // Fetching new Punjabi Shayari
@@ -71,10 +71,10 @@ const { pageNo } = useParams();
         heading={"📜 ਨਵੀਂ ਪੰਜਾਬੀ ਸ਼ਾਇਰੀ – ਹਰ ਸ਼ਬਦ ‘ਚ ਨਵਾਂ ਅਹਿਸਾਸ!"}
       />
 
-        {/* 📌 Categories */}   
-          <Suspense fallback={<div>Loading...</div>}>
-      <ShayariCategories />
-    </Suspense>;
+      {/* 📌 Categories */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <ShayariCategories />
+      </Suspense>;
     </div>
   );
 };
