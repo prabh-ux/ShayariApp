@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setMenuOpen(true)}>
+          <button className="md:hidden"  aria-label="Open mobile menu" onClick={() => setMenuOpen(true)}>
             <Menu size={28} />
           </button>
 
