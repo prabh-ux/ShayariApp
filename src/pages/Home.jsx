@@ -9,7 +9,7 @@ const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
 
-   
+
 
   useEffect(() => {
     let touchStartX = 0;
@@ -74,12 +74,12 @@ const Home = () => {
       </header>
 
       {/* 🌟 Trending Shayari */}
-    <ShayariDiv heading={"🔥 Trending Punjabi Shayari"} shayari={shayari} itemsPerPage={itemsPerPage} paginatedShayari={paginatedShayari} prevPage={prevPage} currentPage={currentPage} nextPage={nextPage} endIndex={endIndex} ></ShayariDiv>
+      <ShayariDiv heading={"🔥 Trending Punjabi Shayari"} shayari={shayari} itemsPerPage={itemsPerPage} paginatedShayari={paginatedShayari} prevPage={prevPage} currentPage={currentPage} nextPage={nextPage} endIndex={endIndex} ></ShayariDiv>
 
       {/* 📌 Categories */}
       <Suspense fallback={<div>Loading...</div>}>
-  <ShayariCategories />
-</Suspense>;
+        <ShayariCategories />
+      </Suspense>;
     </div>
   );
 };

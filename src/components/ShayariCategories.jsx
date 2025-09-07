@@ -41,6 +41,80 @@ const ShayariCategories = () => {
             ))
         )}
       </div>
+      <div className="flex flex-wrap justify-center gap-4 mt-6 min-h-[120px]">
+        <Link to="/punjabi-shayari" className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Best Punjabi Shayari Collection
+        </Link>
+
+        <Link
+          to="/alone-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Alone Shayari
+        </Link>
+        <Link
+          to="/attitude-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Attitude Shayari
+        </Link>
+        <Link
+          to="/breakup-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          BreakUp Shayari
+        </Link>
+        <Link
+          to="/dharmik-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Dharmik Shayari
+        </Link>
+        <Link
+          to="/friendship-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Friendship Shayari
+        </Link>
+        <Link
+          to="/funny-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Funny Shayari
+        </Link>
+        <Link
+          to="/love-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Love Shayari
+        </Link>
+        <Link
+          to="/motivational-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Motivational Shayari
+        </Link>
+        <Link
+          to="/new-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          New Shayaries
+        </Link>
+        <Link
+          to="/sad-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Sad Shayaries
+        </Link>
+        <Link
+          to="/songs-shayari-seo"
+          className="text-blue-600 hover:text-blue-800 font-medium underline"
+        >
+          Songs Shayaries
+        </Link>
+
+      </div>
     </section>
   );
 };

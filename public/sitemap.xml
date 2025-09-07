@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- SEO Pages -->
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/punjabi-shayari</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/alone-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/attitude-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/breakup-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/dharmik-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/friendship-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/funny-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/love-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/motivational-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/new-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/sad-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestpunjabishayari.vercel.app/songs-shayari-seo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Dynamic Category Pages (Pagination 1-10) -->
+  <!-- New Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/new-punjabi-shayari/10</loc></url>
+
+
+  <!-- Love Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/love-punjabi-shayari/10</loc></url>
+
+  <!-- sad Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/sad-punjabi-shayari/10</loc></url>
+
+  <!-- alone Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/alone-punjabi-shayari/10</loc></url>
+
+  <!-- breakup Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/breakup-punjabi-shayari/10</loc></url>
+
+  <!-- attitude Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/attitude-punjabi-shayari/10</loc></url>
+
+  <!-- friendship Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/friendship-punjabi-shayari/10</loc></url>
+
+  <!-- funny Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/funny-punjabi-shayari/10</loc></url>
+
+  <!-- songs Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/songs-punjabi-shayari/10</loc></url>
+
+  <!-- dharmik Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/dharmik-punjabi-shayari/10</loc></url>
+
+  <!-- motivational Punjabi Shayari -->
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/1</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/2</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/3</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/4</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/5</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/6</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/7</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/8</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/9</loc></url>
+  <url><loc>https://bestpunjabishayari.vercel.app/motivational-punjabi-shayari/10</loc></url>
+
+</urlset>

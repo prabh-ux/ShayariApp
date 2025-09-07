@@ -1,2 +1,10 @@
+# robots.txt for https://bestpunjabishayari.vercel.app/
+
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /api/
+Allow: /
+
+Sitemap: https://bestpunjabishayari.vercel.app/sitemap.xml
